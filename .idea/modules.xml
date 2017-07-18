@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" filepath="$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/veryjava.spring.boot.iml" filepath="$PROJECT_DIR$/.idea/veryjava.spring.boot.iml" />
+    </modules>
+  </component>
+</project>
