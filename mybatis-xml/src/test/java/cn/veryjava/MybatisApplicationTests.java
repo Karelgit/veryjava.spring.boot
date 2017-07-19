@@ -26,8 +26,15 @@ public class MybatisApplicationTests {
 
   @Test
   public void testFindByName() {
-    User user = userMapper.findByName("admin");
-
+    User user = userMapper.findByName("AAA");
     Assert.assertNotEquals(null, user);
+  }
+
+  @Test
+  public void testInserUserByCommonMapper() {
+    User user = new User();
+    user.setName("ESTcOMMONmAPPER");
+    int i = userMapper.insert(user);
+    Assert.assertEquals(1,i);
   }
 }

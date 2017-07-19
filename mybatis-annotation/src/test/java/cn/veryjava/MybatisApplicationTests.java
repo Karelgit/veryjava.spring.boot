@@ -18,7 +18,7 @@ public class MybatisApplicationTests {
   @Test
   @Rollback
   public void contextLoads() {
-    userMapper.insert("AAA", 20);
+//    userMapper.insert("AAA", 20);
     User u = userMapper.findByName("AAA");
     Assert.assertEquals(20, u.getAge());
   }

@@ -1,5 +1,6 @@
 package cn.veryjava;
 
+import cn.veryjava.common.CommonMapper;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 
@@ -13,7 +14,7 @@ import org.apache.ibatis.annotations.Param;
  * JDK: since 1.8
  */
 @Mapper
-public interface UserMapper {
+public interface UserMapper extends CommonMapper{
   User findByName(@Param("name") String name);
 
   int insert(@Param("name") String name, @Param("age") int age);
