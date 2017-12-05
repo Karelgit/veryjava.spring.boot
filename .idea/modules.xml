@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" filepath="$PROJECT_DIR$/mybatis-annotation/mybatis-annotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" filepath="$PROJECT_DIR$/mybatis-xml/mybatis-xml.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-mulidatasource/spring-boot-mybatis-mulidatasource.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-mulidatasource/spring-boot-mybatis-mulidatasource.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/veryjava.spring.boot.iml" filepath="$PROJECT_DIR$/.idea/veryjava.spring.boot.iml" />
     </modules>
   </component>

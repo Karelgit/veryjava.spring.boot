@@ -26,7 +26,7 @@ public class MybatisApplicationTests {
 
   @Test
   public void testFindByName() {
-    User user = userMapper.findByName("AAA");
+    User user = userMapper.findByName("leron");
     Assert.assertNotEquals(null, user);
   }
 

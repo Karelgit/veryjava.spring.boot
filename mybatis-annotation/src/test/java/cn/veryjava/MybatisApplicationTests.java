@@ -22,5 +22,4 @@ public class MybatisApplicationTests {
     User u = userMapper.findByName("AAA");
     Assert.assertEquals(20, u.getAge());
   }
-
 }

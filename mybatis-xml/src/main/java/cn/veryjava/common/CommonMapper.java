@@ -3,7 +3,7 @@ package cn.veryjava.common;
 import java.util.List;
 
 /**
- * <类的详细说明：>
+ * <类的详细说明：通用mapper>
  *
  * @Author: Huanghai
  * @Version: 7/19/17

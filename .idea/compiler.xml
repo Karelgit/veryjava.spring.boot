@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mybatis-annotation" />
         <module name="mybatis-xml" />
+        <module name="spring-boot-mybatis-mulidatasource" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mutipledatasource" target="1.8" />
       <module name="mybatis-annotation" target="1.8" />
       <module name="mybatis-xml" target="1.8" />
+      <module name="spring-boot-mybatis-mulidatasource" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
